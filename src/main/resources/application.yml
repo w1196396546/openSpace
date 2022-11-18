@@ -27,7 +27,8 @@ server:
 #        secure: true
 mybatis-plus:
   configuration:
-    map-underscore-to-camel-case: false
+    #是否使用小驼峰命名法
+    map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     db-config:
